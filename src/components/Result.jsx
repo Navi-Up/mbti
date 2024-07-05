@@ -148,7 +148,7 @@ function Result({ score, resetState }) {
       content: {
         title: "나와 닮은 짱구 캐릭터는?",
         description: result.explain,
-        imageUrl: window.location.origin + result.img, // 이미지 URL을 절대 경로로 설정
+        imageUrl: window.location.origin + "/image/짱구배너.png",
         link: {
           mobileWebUrl: window.location.href,
           webUrl: window.location.href,
